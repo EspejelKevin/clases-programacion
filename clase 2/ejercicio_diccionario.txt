@@ -1,0 +1,68 @@
+EJERCICIO: GESTIÓN DE ESTUDIANTES CON DICCIONARIOS
+
+Objetivo:
+Practicar el uso de diccionarios en Python realizando operaciones básicas como:
+insertar, mostrar, obtener, actualizar y eliminar datos.
+
+INSTRUCCIONES GENERALES:
+
+1.- Crea un diccionario llamado estudiantes.
+2.- Cada clave será la matrícula del estudiante (tipo string).
+3.- El valor asociado a cada clave será otro diccionario con la siguiente estructura:
+
+{
+    "nombre": str,
+    "edad": int,
+    "promedio": float
+}
+
+Ejemplo de estructura esperada:
+
+estudiantes = {
+    "A001": {"nombre": "Kevin", "edad": 20, "promedio": 9.1},
+    "A002": {"nombre": "Ana", "edad": 19, "promedio": 8.7}
+}
+
+PARTE 1 — INSERTAR DATOS
+
+1.- Agrega manualmente al menos 3 estudiantes al diccionario.
+2.- Imprime el diccionario completo.
+
+PARTE 2 — MOSTRAR INFORMACIÓN
+
+Recorre el diccionario usando un ciclo for y muestra la información de cada estudiante
+con el siguiente formato:
+
+Matricula: A001
+Nombre: Kevin
+Edad: 20
+Promedio: 9.1
+
+PARTE 3 — OBTENER UN ESTUDIANTE
+
+1.- Solicita al usuario una matrícula utilizando input().
+2.- Si la matrícula existe en el diccionario, muestra todos sus datos.
+3.- Si no existe, muestra el mensaje: "Estudiante no encontrado"
+
+PARTE 4 — ACTUALIZAR DATOS
+
+1.- Solicita una matrícula al usuario.
+2.- Si existe, permite actualizar el promedio del estudiante.
+3.- Muestra el diccionario actualizado.
+
+PARTE 5 — ELIMINAR ESTUDIANTE
+
+1.- Solicita una matrícula.
+2.- Si existe, elimínala del diccionario usando del.
+3.- Muestra el diccionario final.
+
+PARTE 6 — ANÁLISIS
+
+1.- Encuentra el estudiante con mayor promedio.
+2.- Calcula el promedio general del grupo.
+3.- Muestra los resultados en pantalla.
+
+
+NOTA:
+    - Solo usar diccionarios, condicionales, ciclos y operaciones básicas.
+    - Investigar sobre la función input() de Python para leer datos desde la consola.
